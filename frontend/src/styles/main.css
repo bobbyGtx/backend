@@ -50,5 +50,6 @@ body {
 .btn{
     padding: 6px 10px;
     position: relative;
+    cursor: pointer;
 
 }
