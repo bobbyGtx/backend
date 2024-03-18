@@ -1,10 +1,6 @@
 import {UrlManager} from "../utils/url-manager.js";
 
 export class Product {
-    title = '';
-    description = '';
-    price = 0;
-
     constructor() {
         this.productElement = document.getElementById('product');
         this.id = UrlManager.getQueryParams()['id'];
